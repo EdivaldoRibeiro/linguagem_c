@@ -4,6 +4,8 @@
 // CONSTANTES
 #define NULO '\0'                   /* define o caractere NULL */
 #define SIZEBUFF  64                /* tamanho do buffer */
+#define ERRO  -1                    /* indica que houve erro */
+#define SUCESSO 0                   /* sem erro */
 
 // MACROS
 #define macro_is_lowercase(x) (((x) >='a' && (x) <='z') ? 1 : 0)
